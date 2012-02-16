@@ -20,6 +20,8 @@
 		5F0A4C3E14ED00D700C07DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0A4C1F14ED00D700C07DD2 /* Foundation.framework */; };
 		5F0A4C4614ED00D700C07DD2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F0A4C4414ED00D700C07DD2 /* InfoPlist.strings */; };
 		5F0A4C4914ED00D700C07DD2 /* ChinaAQISDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C4814ED00D700C07DD2 /* ChinaAQISDKDemoTests.m */; };
+		5F0A4C5E14ED095500C07DD2 /* CAQIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C5D14ED095500C07DD2 /* CAQIRequest.m */; };
+		5F0A4C6114ED097500C07DD2 /* CAQIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C6014ED097500C07DD2 /* CAQIResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		5F0A4C4514ED00D700C07DD2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F0A4C4714ED00D700C07DD2 /* ChinaAQISDKDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChinaAQISDKDemoTests.h; sourceTree = "<group>"; };
 		5F0A4C4814ED00D700C07DD2 /* ChinaAQISDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChinaAQISDKDemoTests.m; sourceTree = "<group>"; };
+		5F0A4C5C14ED095500C07DD2 /* CAQIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAQIRequest.h; sourceTree = "<group>"; };
+		5F0A4C5D14ED095500C07DD2 /* CAQIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAQIRequest.m; sourceTree = "<group>"; };
+		5F0A4C5F14ED097500C07DD2 /* CAQIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAQIResponse.h; sourceTree = "<group>"; };
+		5F0A4C6014ED097500C07DD2 /* CAQIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAQIResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		5F0A4C0E14ED00D600C07DD2 = {
 			isa = PBXGroup;
 			children = (
+				5F0A4C5A14ED092C00C07DD2 /* ChinaAQISDK */,
 				5F0A4C2314ED00D700C07DD2 /* ChinaAQISDKDemo */,
 				5F0A4C4114ED00D700C07DD2 /* ChinaAQISDKDemoTests */,
 				5F0A4C1C14ED00D700C07DD2 /* Frameworks */,
@@ -149,6 +156,17 @@
 				5F0A4C4414ED00D700C07DD2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F0A4C5A14ED092C00C07DD2 /* ChinaAQISDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F0A4C5C14ED095500C07DD2 /* CAQIRequest.h */,
+				5F0A4C5D14ED095500C07DD2 /* CAQIRequest.m */,
+				5F0A4C5F14ED097500C07DD2 /* CAQIResponse.h */,
+				5F0A4C6014ED097500C07DD2 /* CAQIResponse.m */,
+			);
+			path = ChinaAQISDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +278,8 @@
 				5F0A4C2A14ED00D700C07DD2 /* main.m in Sources */,
 				5F0A4C2E14ED00D700C07DD2 /* CAQIAppDelegate.m in Sources */,
 				5F0A4C3114ED00D700C07DD2 /* CAQIViewController.m in Sources */,
+				5F0A4C5E14ED095500C07DD2 /* CAQIRequest.m in Sources */,
+				5F0A4C6114ED097500C07DD2 /* CAQIResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +447,7 @@
 				5F0A4C4E14ED00D700C07DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F0A4C4F14ED00D700C07DD2 /* Build configuration list for PBXNativeTarget "ChinaAQISDKDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +456,7 @@
 				5F0A4C5114ED00D700C07DD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
