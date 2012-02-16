@@ -22,6 +22,15 @@
 		5F0A4C4914ED00D700C07DD2 /* ChinaAQISDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C4814ED00D700C07DD2 /* ChinaAQISDKDemoTests.m */; };
 		5F0A4C5E14ED095500C07DD2 /* CAQIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C5D14ED095500C07DD2 /* CAQIRequest.m */; };
 		5F0A4C6114ED097500C07DD2 /* CAQIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C6014ED097500C07DD2 /* CAQIResponse.m */; };
+		5F0A4C7414ED420100C07DD2 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C6914ED420100C07DD2 /* NSObject+SBJSON.m */; };
+		5F0A4C7514ED420100C07DD2 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C6B14ED420100C07DD2 /* NSString+SBJSON.m */; };
+		5F0A4C7614ED420100C07DD2 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C6D14ED420100C07DD2 /* SBJSON.m */; };
+		5F0A4C7714ED420100C07DD2 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C6F14ED420100C07DD2 /* SBJsonBase.m */; };
+		5F0A4C7814ED420100C07DD2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C7114ED420100C07DD2 /* SBJsonParser.m */; };
+		5F0A4C7914ED420100C07DD2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C7314ED420100C07DD2 /* SBJsonWriter.m */; };
+		5F0A4C7D14ED424800C07DD2 /* RequestParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C7C14ED424800C07DD2 /* RequestParams.m */; };
+		5F0A4C8014ED426900C07DD2 /* ResponseItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C7F14ED426900C07DD2 /* ResponseItems.m */; };
+		5F0A4C8314ED45D700C07DD2 /* CAQIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4C8214ED45D600C07DD2 /* CAQIUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +67,25 @@
 		5F0A4C5D14ED095500C07DD2 /* CAQIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAQIRequest.m; sourceTree = "<group>"; };
 		5F0A4C5F14ED097500C07DD2 /* CAQIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAQIResponse.h; sourceTree = "<group>"; };
 		5F0A4C6014ED097500C07DD2 /* CAQIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAQIResponse.m; sourceTree = "<group>"; };
+		5F0A4C6714ED420100C07DD2 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		5F0A4C6814ED420100C07DD2 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		5F0A4C6914ED420100C07DD2 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		5F0A4C6A14ED420100C07DD2 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		5F0A4C6B14ED420100C07DD2 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		5F0A4C6C14ED420100C07DD2 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		5F0A4C6D14ED420100C07DD2 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		5F0A4C6E14ED420100C07DD2 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		5F0A4C6F14ED420100C07DD2 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		5F0A4C7014ED420100C07DD2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		5F0A4C7114ED420100C07DD2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		5F0A4C7214ED420100C07DD2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		5F0A4C7314ED420100C07DD2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		5F0A4C7B14ED424800C07DD2 /* RequestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestParams.h; sourceTree = "<group>"; };
+		5F0A4C7C14ED424800C07DD2 /* RequestParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestParams.m; sourceTree = "<group>"; };
+		5F0A4C7E14ED426900C07DD2 /* ResponseItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseItems.h; sourceTree = "<group>"; };
+		5F0A4C7F14ED426900C07DD2 /* ResponseItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseItems.m; sourceTree = "<group>"; };
+		5F0A4C8114ED45D600C07DD2 /* CAQIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAQIUtility.h; sourceTree = "<group>"; };
+		5F0A4C8214ED45D600C07DD2 /* CAQIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAQIUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +115,7 @@
 		5F0A4C0E14ED00D600C07DD2 = {
 			isa = PBXGroup;
 			children = (
+				5F0A4C6614ED420100C07DD2 /* JSON */,
 				5F0A4C5A14ED092C00C07DD2 /* ChinaAQISDK */,
 				5F0A4C2314ED00D700C07DD2 /* ChinaAQISDKDemo */,
 				5F0A4C4114ED00D700C07DD2 /* ChinaAQISDKDemoTests */,
@@ -165,8 +194,34 @@
 				5F0A4C5D14ED095500C07DD2 /* CAQIRequest.m */,
 				5F0A4C5F14ED097500C07DD2 /* CAQIResponse.h */,
 				5F0A4C6014ED097500C07DD2 /* CAQIResponse.m */,
+				5F0A4C7B14ED424800C07DD2 /* RequestParams.h */,
+				5F0A4C7C14ED424800C07DD2 /* RequestParams.m */,
+				5F0A4C7E14ED426900C07DD2 /* ResponseItems.h */,
+				5F0A4C7F14ED426900C07DD2 /* ResponseItems.m */,
+				5F0A4C8114ED45D600C07DD2 /* CAQIUtility.h */,
+				5F0A4C8214ED45D600C07DD2 /* CAQIUtility.m */,
 			);
 			path = ChinaAQISDK;
+			sourceTree = "<group>";
+		};
+		5F0A4C6614ED420100C07DD2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5F0A4C6714ED420100C07DD2 /* JSON.h */,
+				5F0A4C6814ED420100C07DD2 /* NSObject+SBJSON.h */,
+				5F0A4C6914ED420100C07DD2 /* NSObject+SBJSON.m */,
+				5F0A4C6A14ED420100C07DD2 /* NSString+SBJSON.h */,
+				5F0A4C6B14ED420100C07DD2 /* NSString+SBJSON.m */,
+				5F0A4C6C14ED420100C07DD2 /* SBJSON.h */,
+				5F0A4C6D14ED420100C07DD2 /* SBJSON.m */,
+				5F0A4C6E14ED420100C07DD2 /* SBJsonBase.h */,
+				5F0A4C6F14ED420100C07DD2 /* SBJsonBase.m */,
+				5F0A4C7014ED420100C07DD2 /* SBJsonParser.h */,
+				5F0A4C7114ED420100C07DD2 /* SBJsonParser.m */,
+				5F0A4C7214ED420100C07DD2 /* SBJsonWriter.h */,
+				5F0A4C7314ED420100C07DD2 /* SBJsonWriter.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +335,15 @@
 				5F0A4C3114ED00D700C07DD2 /* CAQIViewController.m in Sources */,
 				5F0A4C5E14ED095500C07DD2 /* CAQIRequest.m in Sources */,
 				5F0A4C6114ED097500C07DD2 /* CAQIResponse.m in Sources */,
+				5F0A4C7414ED420100C07DD2 /* NSObject+SBJSON.m in Sources */,
+				5F0A4C7514ED420100C07DD2 /* NSString+SBJSON.m in Sources */,
+				5F0A4C7614ED420100C07DD2 /* SBJSON.m in Sources */,
+				5F0A4C7714ED420100C07DD2 /* SBJsonBase.m in Sources */,
+				5F0A4C7814ED420100C07DD2 /* SBJsonParser.m in Sources */,
+				5F0A4C7914ED420100C07DD2 /* SBJsonWriter.m in Sources */,
+				5F0A4C7D14ED424800C07DD2 /* RequestParams.m in Sources */,
+				5F0A4C8014ED426900C07DD2 /* ResponseItems.m in Sources */,
+				5F0A4C8314ED45D700C07DD2 /* CAQIUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
